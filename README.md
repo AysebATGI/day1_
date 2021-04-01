@@ -10,9 +10,8 @@ rmdir	Remove a directory (folder).
 clear	Clears the CLI window.
 exit	Closes the CLI window.
 man command	Shows the manual for a given command.
-
 # this is how we tell GIT 'please use CONNECT TO THIS folder on github'
-yavuzbingol@yavuzs-MacBook-Pro day1_ % git init 
+yavuzbingol@yavuzs-MacBook-Pro day1_ % git
 Reinitialized existing Git repository in /Users/yavuzbingol/Desktop/Git1/day1_/.git/
 
 # TELL ME what folder it is connected to
@@ -21,6 +20,12 @@ origin  https://github.com/AysebATGI/day1_.git (fetch)
 origin  https://github.com/AysebATGI/day1_.git (push)
 
 'dash'
+
+# git remove rm origin
+remove the repo it is currently connected to
+
+# git remote add origin  https://github.com/AysebATGI/javaprojects.git
+this links the REMOTE repo (github project) to your LOCAL repo (your laptop)
 
 # git add .
 THIS STAGES ALL THE FILES THAT YOU WILL COMMIT
